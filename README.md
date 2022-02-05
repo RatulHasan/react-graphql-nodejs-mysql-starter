@@ -1,5 +1,4 @@
-# react-graphql-nodejs-mysql-starter
-A basic starter for React, GraphQL, NodeJS, MySQL.
+# A basic starter for React, GraphQL, NodeJS, MySQL.
 
 Clone this repository and run 
 
