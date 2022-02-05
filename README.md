@@ -1,4 +1,4 @@
-# A basic starter for React, GraphQL, NodeJS, MySQL.
+# A basic starter for React, TypeScript, GraphQL, NodeJS, MySQL.
 
 Clone this repository and run 
 
