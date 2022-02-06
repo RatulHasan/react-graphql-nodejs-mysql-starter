@@ -14,9 +14,9 @@ const RootQuery = new GraphQLObjectType({
 const RootMutation = new GraphQLObjectType({
   name: 'RootMutationType',
   fields: {
-    create_user: CREATE_USER,
-    delete_user: DELETE_USER,
-    update_user: UPDATE_USER,
+    createUser: CREATE_USER,
+    deleteUser: DELETE_USER,
+    updateUser: UPDATE_USER,
   }
 });
 
