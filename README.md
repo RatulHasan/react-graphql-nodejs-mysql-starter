@@ -1,6 +1,7 @@
 # A basic starter for React, TypeScript, GraphQL, NodeJS, MySQL.
 
-Clone this repository and run 
+## Server setup
+Clone this repository and run
 
 ``cd server``
 
@@ -38,6 +39,18 @@ To build the application for production:
 ``npm run build``
 
 To run the application in production:
+``npm run start``
+
+Open http://localhost:4000/graphql in your browser to see the api.
+
+## Client setup
+
+For running the frontend:
+
+``cd client``
+
+``npm install``
+
 ``npm run start``
 
 ## Happy Coding! :)

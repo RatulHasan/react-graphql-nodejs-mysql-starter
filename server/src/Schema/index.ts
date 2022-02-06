@@ -6,8 +6,8 @@ import {ALL_POSTS, ALL_POSTS_BY_TYPE} from "./Queries/Posts";
 const RootQuery = new GraphQLObjectType({
   name: 'RootQueryType',
   fields: () =>({
-    all_users: ALL_USERS,
-    all_posts: ALL_POSTS,
+    allUsers: ALL_USERS,
+    allPosts: ALL_POSTS,
   })
 });
 

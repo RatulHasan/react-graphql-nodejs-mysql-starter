@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import {ApolloClient, ApolloProvider, InMemoryCache} from "@apollo/client";
 import CreateUsers from "./Components/CreateUsers";
+import UsersList from "./Components/UsersList";
 
 function App() {
   const client = new ApolloClient({
@@ -12,6 +13,7 @@ function App() {
     <>
     <ApolloProvider client={client}>
       <CreateUsers />
+      <UsersList />
     </ApolloProvider>
     </>
   );
